@@ -1,0 +1,12 @@
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/PropertopiaApplication.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/BoardController.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/GameController.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/PlayerController.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/model/ChanceCard.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/model/Field.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/model/Game.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/model/Player.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/model/Street.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/service/BoardService.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/service/GameService.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/service/PlayerService.java
