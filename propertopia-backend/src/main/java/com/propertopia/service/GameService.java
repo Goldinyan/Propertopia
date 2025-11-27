@@ -1,3 +1,8 @@
+package com.propertopia.service;
+
+import com.propertopia.model.Field;
+import com.propertopia.model.Game;
+import com.propertopia.model.Player;
 import org.springframework.stereotype.Service;
 import java.util.Arrays;
 
@@ -7,8 +12,8 @@ public class GameService {
 
     public GameService() {
         //BEISPIEL 
-        Player p1 = new Player("1");
-        Player p2 = new Player("2");
+        Player p1 = new Player("Alice");
+        Player p2 = new Player("Bob");
         Field f1 = new Field("Bahnhof", 200);
         Field f2 = new Field("Parkstraße", 350);
 

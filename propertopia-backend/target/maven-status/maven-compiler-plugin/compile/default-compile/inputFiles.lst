@@ -1,4 +1,5 @@
 /Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/PropertopiaApplication.java
+/Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/config/CorsConfig.java
 /Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/BoardController.java
 /Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/GameController.java
 /Users/ansgarseifert/Desktop/School/propertopia/propertopia-backend/src/main/java/com/propertopia/controller/PlayerController.java

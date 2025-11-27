@@ -1,3 +1,7 @@
+package com.propertopia.controller;
+
+import com.propertopia.model.Game;
+import com.propertopia.service.GameService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,6 +21,9 @@ public class GameController {
 
     @PostMapping("/roll")
     public Game rollDice(@RequestParam String playerName) {
-        return gameService.rollDice(playerName);
+        if(gameService.getGameState().findPlayer(playerName) != null){
+            return gameService.rollDice(playerName);
+        }
+        throw new IllegalArgumentException("Player not found: " + playerName);
     }
 }

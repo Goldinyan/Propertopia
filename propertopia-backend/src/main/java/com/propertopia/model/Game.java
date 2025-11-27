@@ -1,3 +1,5 @@
+package com.propertopia.model;
+
 import java.util.List;
 
 public class Game {

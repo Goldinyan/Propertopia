@@ -1,2 +1,7 @@
-PropertopiaApplication.class
-Player.class
+com/propertopia/model/Field.class
+com/propertopia/config/CorsConfig.class
+com/propertopia/PropertopiaApplication.class
+com/propertopia/service/GameService.class
+com/propertopia/controller/GameController.class
+com/propertopia/model/Game.class
+com/propertopia/model/Player.class

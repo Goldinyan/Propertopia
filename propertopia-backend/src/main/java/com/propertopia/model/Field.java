@@ -1,3 +1,5 @@
+package com.propertopia.model;
+
 public class Field {
     private String name;
     private int price;
