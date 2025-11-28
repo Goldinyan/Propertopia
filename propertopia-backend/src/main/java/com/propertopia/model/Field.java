@@ -24,7 +24,8 @@ public class Field {
     public int getPrice() { return price; }
     public Player getOwner() { return owner; }
     public void setOwner(Player owner) { this.owner = owner; }
-    public void addHouse(Player owner){
+    public int getRent() { return this.rent + (this.houses * this.multiplicator); }
+    public void addHouse(Player owner) {
         if(this.owner != owner){
             return;
         }
@@ -32,7 +33,7 @@ public class Field {
             this.houses += 1;
         }
     }
-    public void deleteHouse(Player owner){
+    public void deleteHouse(Player owner) {
         if(this.owner != owner){
             return;
         }
@@ -40,4 +41,5 @@ public class Field {
             this.houses -= 1;
         }
     }
+    public void getHousePrice() { return this.housePrice; }
 }
