@@ -26,4 +26,14 @@ public class GameController {
         }
         throw new IllegalArgumentException("Player not found: " + playerName);
     }
+
+    @PostMapping("/addPlayer")
+    public Game addPlayer(@RequestParam String playerName){
+        return gameService.addPlayer(playerName);
+    }
+
+    @PostMapping("/build")
+    public Game buildHouse(@RequestParam String playerName, int fieldId){
+        return gameService.buildHouse(playerName, fieldId);
+    }
 }
